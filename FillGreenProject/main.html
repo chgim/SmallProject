@@ -20,27 +20,28 @@
        width: 100%; 
        position: absolute; top:2%;
        z-index: 5;
+       text-align: center;
       }/*브랜드 로고*/
       .fillGreen{
         float:left;
         font-size: 1.7rem;
        margin-right: 5px;
        margin-left:30px;
-       display:block;  height:40px; line-height:40px; color:#517552;
+         height:40px; line-height:40px; color:#517552;
       }
       .career{
         float:left;
         font-size: 1.7rem;
         margin-right: 60px;
-        display:block;  height:40px; line-height:40px; color:#86b687;
+         height:40px; line-height:40px; color:#86b687;
       }
       /*드롭다운 메뉴*/
-    .header .link{
+    /* .header .link{
       position: relative;
       
       
-    }  
-ul{list-style:none;display:inline-block;}
+    }   */
+ul{list-style:none; float:left;}
 a{text-decoration:none; }
 .menu:after{display:block; content:''; clear:both;}
 .menu > li{position:relative; float:left; margin-right:5px; color:#575a57;font-size: 1.5rem;}
@@ -126,8 +127,7 @@ a{text-decoration:none; }
         <source src="image/forest.mp4" type="video/mp4">
       </video>
       <div class="header"><!--헤더-->
-       <div class="brand"><div class="fillGreen">Fill Green</div><div class="career">Career</div></div> 
-       <div class="link">
+       <div class="fillGreen">Fill Green</div><div class="career">Career</div>
        <ul class="menu">
         <li>
           <a href="#">About us</a>
@@ -150,7 +150,7 @@ a{text-decoration:none; }
           <a href="#">FAQ</a>
         </li>
       </ul>
-    </div>
+    
       </div>
       <div class="jb-text"> <!--배경 중앙 텍스트-->
         <p>
